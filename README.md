@@ -1,3 +1,3 @@
 # Prototypical-Graph-DA
-Repository for "Prototypical Interaction Graph for Unsupervised Domain Adaptation in Surgical Instrument Segmentation"  
+Repository for "Graph-based Surgical Instrument Adaptive Segmentation via Domain-Common Knowledge"  
 Code will be released soon~

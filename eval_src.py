@@ -112,7 +112,7 @@ def main():
                 # output_col.save(  '%s/%s_color.png' % ('./result', name.split('.')[0])  ) 
 
         inters_over_union_classes = per_class_iu(hist)
-        print(a, round(np.nanmean(inters_over_union_classes) * 100, 2))
+        print(a, round(np.nanmean(inters_over_union_classes[1:]) * 100, 2))
         print(inters_over_union_classes)
         print(dice/dice_count)
         break
